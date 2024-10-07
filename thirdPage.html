@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Savy Meal</title>
-    <link rel="stylesheet" href="secondPage.css">
+    <title>Savvy Meal</title>
+    <link rel="stylesheet" href="thirdPage.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
 </head>
-
 <body>
 
     <div class="wrapper">
         <form action="">
+
             <div class="goBack">
-                <a href="index.html">
+                <a href="secondPage.html">
                     <p>
                         <i class='bx bx-left-arrow-alt'></i> 
                         
@@ -29,35 +28,43 @@
             </div>
 
             <div class="savyText">
-                <h1>Lets get to know you</h1>
+                <h1>Welcome Back</h1>
+            </div>
+
+            <div class="account">
                 <h3>Create an account with us</h3>
             </div>
 
             <div class="input-box">
-                <input type="text" placeholder="Full Name" name="fullName" required>
+                <input type="text" placeholder="Work Email" name="workEmail" required>
                 <i class="bx bxs-user"></i>
             </div>
 
             <div class="input-box">
-                <input type="password" placeholder="Create Password" name="createPassword" maxlength="12" required>
+                <input type="text" placeholder="Work Email" name="workEmail" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
 
-             <div class="input-box">
-                <input type="password" placeholder="Confirm Password" name="confirmPassword" maxlength="12" required>
-                <i class="bx bxs-lock-alt"></i>
+            <div class="together">
+                <div class="remember-forget">
+                    <label><input type="checkbox">Remeber me?</label>
+                </div>
+    
+                 <div class="forgotPassword">
+                    <p><a href="fourthPage.html">forgot password</a></p>
+                </div>
             </div>
 
-            <div class="remember-forget">
-                <label><input type="checkbox">By signing up, you are agreeing to the <span>Terms and Policies of Savvy Meal</span>
-                </label>
+            <button type="submit" class="btn">Login</button>
+
+            <div class="orMiddle">
+               <h2 class="orText">or</h2>
             </div>
 
-            <button type="submit" class="btn">Sign Up</button>
+            <button type="submit" class="btnGoogle">Sign up with google</button>
 
         </form>
     </div>
 
 </body>
-
 </html>

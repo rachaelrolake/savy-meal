@@ -15,6 +15,11 @@ body {
     background-position: center;
 }
 
+.goBack a {
+    text-decoration: none;
+    color: #333;
+}
+
 .wrapper {
     width: 500px;
     background: #E3FAEC;
@@ -22,13 +27,13 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 10px;
-    padding: 20px 20px 45px 20px;
+    padding: 20px ;
 }
 
 .wrapper .logo {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 60px;
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
 }
 
 .logo img {
@@ -40,13 +45,22 @@ body {
     position: relative;
     width: 100%;
     height: 50px;
-    margin: 30px 0;
+    margin: 25px 0;
 }
 
 .savyText h1 {
     color: rgb(19, 29, 3);
-    font-size: 32px;
+    font-size: 22px;
     font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.account h3 {
+    color: #BDCBB7;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 8px;
 }
 
 .input-box input {
@@ -58,7 +72,7 @@ body {
     border: 2px solid  #59A911;
     border-radius: 15px ;
     font-size: 16px;
-    padding: 20px 45px 20px 20px;
+    padding: 17px 45px 17px 20px;
 }
 
 .input-box input::placeholder {
@@ -73,6 +87,47 @@ body {
     font-size: 20px;
     color: transparent;
     -webkit-text-stroke: 0.5px #BDCBB7;
+}
+
+.together {
+    display: flex;
+    
+}
+
+.wrapper .forgotPassword {
+    margin: -15px 0 15px;
+}
+ .forgotPassword p {
+    font-size: 15.5px;
+    margin-left: 179px;
+}
+
+.forgotPassword p a {
+    text-decoration: none;
+    color: #333;
+}
+
+.forgotPassword p a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .remember-forget {
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forget input {
+    margin-right: 7px;
+    accent-color: darkgreen;
+    scale: 1.2;
+}
+
+.remember-forget label {
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+    bottom: 7px;
 }
 
 .wrapper .btn {
@@ -90,31 +145,19 @@ body {
     font-weight: 400;
 }
 
-/* .orMiddle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.orMiddle hr {
-    width: 100%;
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 0;
-}
 
-.orText {
-    background-color: #fff;
-    padding: 0 10px;
-    position: relative;
-    top: -10px;
+/* .forgotPassword h2 {
+    text-align: center;
+    color: red;
+    margin-top: 13px;
 } */
 
 .orMiddle {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px 0;
+    margin: 10px 0 9px;
 }
 
 .orText {
@@ -125,7 +168,7 @@ body {
 
 .orText::before, .orText::after {
     content: "";
-    height: 2px;
+    height: 1px;
     width: 200px;
     column-gap: 0;
     background-color: #333;
@@ -145,29 +188,4 @@ body {
     color: #fff;
     font-size: 27px;
     font-weight: 00;
-}
-
-.btnGoogle a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.wrapper .register-link {
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-.register-link p {
-    color: #333;
-}
-
-.register-link p a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 600;
-    margin-left: 10px;
-}
-
-.register-link p a:hover {
-    text-decoration: underline;
 }
