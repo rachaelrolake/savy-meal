@@ -1,0 +1,88 @@
+
+
+.navbar {
+    background: white;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff;    
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    
+}
+
+.logo img {
+    width: 70px;
+    height: 70px
+}
+
+
+.nav-items {
+    color: #333;
+}
+
+.dropdown-menu {
+    background: #FFC0CB;
+}
+
+.form-control {
+    border: 1.5px solid #333;
+}
+
+
+.btn-outline-light {
+    color: #333;
+    border-color: #333;
+}
+
+
+/*sticky bg*/
+
+.sticky-background {
+    background-image: url(images/mealsImages/backg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    position: relative;
+}
+
+.overlay-text {
+display: flex;
+justify-content: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'; color: #fff;
+/* font-size: 1.4rem; */
+font-size: 1.3rem;
+padding-top: 10%;
+z-index: 1;
+position: relative;
+}
+
+
+.overlay-text h1 {
+    font-size: 36px;
+}
+
+.overlay-text p {
+    font-size: 18px;
+}
+
+p {
+    margin-left: 0;
+}
+
+
+
+
+
+.featuresSection {
+    margin: 150px 0;
+}
+.carousel-item {
+    height: 500px;
+}
+
